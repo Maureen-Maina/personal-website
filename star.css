@@ -1,0 +1,155 @@
+body{
+    font-family: Arial;
+    background: #001e4a;
+    color: white;
+    text-align: center;
+}
+.welcome{
+    color: #56f921;
+    font-size: 21px;
+    font-weight: 0;
+}
+.top span{
+    color: yellow;
+}
+
+b{
+    color: red;
+    font-size: 20px;
+}
+img{
+    width: 70%;
+    border-radius: 50%;
+}
+
+* childhood{
+    font-family: Arial, Helvetica, sans-serif;
+}
+select{
+    margin-top: 10px;
+}
+
+
+#navlinks ul {
+    display: flex;
+    align-items: center;
+
+}
+
+#navlinks li {
+    padding-left: 20px;
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 30px;
+    color: yellow;
+}
+section{
+    padding: 0 10% ;
+}
+#navlinks{
+    border: none;
+    background-color: orangered;
+    color: white;
+    border-radius: 15px;
+    padding: 5px 10px 5px;
+    transition: 0.5s ease;
+}
+
+#navlinks #home :hover {
+    border: 1px solid rgb(46, 178, 46);
+    border-radius: 15px;
+    background-color: white;
+    padding: 5px 10px 5px;
+    color: rgb(46, 178, 46);
+}
+
+#navlinks .nav-hover  {
+    transition: 0.10s ease;
+}
+
+#navlinks .nav-hover :hover {
+    border-radius: 20px;
+    background-color: gray;
+    padding: 5px 10px 5px;
+    color: white;
+}
+#education .info{
+    padding: 2rem;
+    border-radius: 0 10px;
+    
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #4CAF50;
+}
+#aspiration
+.aspiration {
+
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+
+}
+.aspiration h2 {
+    
+    color: orangered;
+}
+.title {
+    color: yellow;
+    font-size: 20px;
+    font-weight: bold;
+}
+.section {
+    margin-bottom:0px;
+}
+#skills
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: yellow;
+}
+
+.skill {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.skill h2 {
+    color: orange;
+}
+
+.skill {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.skill h2 {
+    color: orange;
+}
+
+#contact me
+.body{
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100lvh;
+    margin: 0;
+   
+
+}
+.info li a{
+    color: green;
+}

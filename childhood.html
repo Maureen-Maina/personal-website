@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title id="title">Molly</title>
+    <link rel="icon" href="./star images/my logo.png"/>
+  </head>
+
+  <div id="navlinks">
+    <ul>
+      <li id="home"><a href="index.html">Home</a></li>
+      <li class="nav-hover"><a href="childhood.html">Childhood</a></li>
+      <li class="nav-hover"><a href="education.html">Education</a></li>
+      <li class="nav-hover"><a href="skills.html">Skills</i></a></li>
+      <li class="nav-hover"><a href="aspiration.html">Future aspiration</i></a></li>
+      <li class="nav-hover"><a href="contact.html">Contact</i></a></li>
+
+      
+    </ul>
+  </div></a>
+</div>
+    <title>Memorable Childhood</title>
+    <link rel="stylesheet" href="star.css">
+    
+</head>
+<body>
+    <h1>Memorable Childhood Moments</h1>
+    <select id="memories">
+        <option value="1">My first day at school</option>
+    <option value="2">My best childhood friend</option>
+    <option value="3">My family and I</option>
+    <option value="4">Discovering my talent</option>
+    <option value="5">My formative moment</option>
+    </select>
+    <button onclick="displayMemory()">Recall Memory</button>
+    <p id="memory-text"></p>
+
+    <script>
+        function displayMemory() {
+            const memoryText = document.getElementById("memory-text");
+            const memorySelect = document.getElementById("memories");
+            const selectedMemory = memorySelect.options[memorySelect.selectedIndex].value;
+
+            switch (selectedMemory) {
+                case "1":
+            memoryText.textContent="My first day at school was indeed horrible. My mummy leaving me on the hands of people i never knew was hectic. I remember crying my lungs out seeing my mummy go leaving me behind. ";
+            break;
+        case "2":
+            memoryText.textContent="back in my childhood I had a friend by the name Nellythin. She happend to be my neighbour and my schoolmate also. We were best of friends be it at home or at school."
+            break;
+        case "3":
+            memoryText.textContent="Spending time with my family was the best thing ever. I visiting my dad in town after closing school was all superb. The trip to town was all mind blowing knowing that i would spend quality time with my dad and my elder sisters";
+            break;
+        case "4":
+             memoryText.textContent="As days went on that's when I realised I were indeed a good dancer. My discovery to my talent would make me spend my leisure time dancing if I had nothing else to do my mum being my one and only spectator. And I ofcourse I loved having quality time with my greatest pillay,my Mummy.";
+             break;
+        case "5":
+             memoryText.textContent="I have learnt to always keep a smile on my face no matter how sad it might be. Going to school and leaving my sick mum at home wasn't simple for me at all but i had no choice but to fake smiles each and every moment. This really makes me be able to withstand any situation that i face despite how negative it may seem"
+            }
+        }
+    </script>
+</body>
+</html>
